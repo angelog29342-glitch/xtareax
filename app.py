@@ -4,4 +4,5 @@ st.header('¡Hola profe!')
 st.text('Presentación simple')
 
 st.button('Hazme clic')
-st.text_input('Escriba algo:')
+texto = st.text_input('Escriba algo:')
+st.write('Usted escribió:', texto )
